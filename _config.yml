@@ -3,7 +3,8 @@ plugins:
 
 # SEO Stuff
 author: Tony Cavella
-description: automation, infrastructure, security
+title: Tony Cavella
+description: "automation, infrastructure, security"
 lang: en
 locale: en_GB
 url: "https://cavella.com"
