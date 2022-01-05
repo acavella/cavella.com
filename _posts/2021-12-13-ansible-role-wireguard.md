@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ansible Role Wireguard
+description: Yesterday I completed and published my first official Ansible Role.
 date: 2021-12-10
 ---
 

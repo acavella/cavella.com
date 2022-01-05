@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What is this?
+description: I will try to document my various projects here. I hope to keep things very simple.
 date: 2021-12-03
 ---
 
