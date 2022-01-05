@@ -1,17 +1,39 @@
----
-layout: default
----
-<h4>{{ title }}</h4>
-<p>{{ page.date | date_to_string }}</p>
-<p>{{ post.title }}</p>
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/favicon.png" />
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}" />
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+  </head>
+  <body>
 
-{{ content }}
+    <header>
+      <h1>{{ page.header }}</h1>
+      <p>{{ page.description }}</p>
 
-<br>
-<hr>
+      {% include navigation.html %}
+    </header>
 
-<h4>Looking for comments?</h4>
+    <main>
+        <p>{{ post.title }}</p>
+        <p>{{ page.date | date_to_string }}</p>
+        {{ content }}
 
-<p>I don't have comments on this site as they're difficult to manage and take up too much time. I'd rather concentrate on producing content than managing comments.</p>
+        <br>
+        <hr>
 
-<p>Since there are no comments, feel free to contact me <a href="/contact">contact me</a> instead.</p>
+        <h4>Looking for comments?</h4>
+
+    <p>I don't have comments on this site as they're difficult to manage and take up too much time. I'd rather concentrate on producing content than managing comments.</p>
+    <p>Since there are no comments, feel free to contact me <a href="/contact">contact me</a> instead.</p>
+    </main>
+
+    <footer>
+      <p>This site was created by <a href="https://cavella.com">Tony Cavella</a> and was made using <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://simplecss.org">Simple.css</a>.</p>    
+    </footer>
+
+  </body>
+</html>
