@@ -10,6 +10,7 @@ I make no guarantee. I work in the mobile security and infrastructure; mostly te
 I'm also building a large homelab using primarily large clusters of Raspberry Pis, much of my writing will 
 document that journey.
 
+<h3>Blog Posts</h3>
 {% for post in site.posts %}
   <p><a href="{{ post.url }}">{{ post.title }}</a><br>
   {{ post.description }}<br>
