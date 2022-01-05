@@ -4,15 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/assets/images/favicon.png" />
-    <title>{{ page.title }}</title>
-    <meta name="description" content="{{ page.description }}" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}" />
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
   </head>
   <body>
 
     <header>
-      <h1>{{ page.header }}</h1>
-      <p>{{ page.description }}</p>
+      <h1>{{ site.header }}</h1>
+      <p>{{ site.description }}</p>
 
       {% include navigation.html %}
     </header>
