@@ -8,7 +8,7 @@ Yesterday I completed and published my first official Ansible Role. Much of the 
 
 The purpose of this role is to install Wireguard on Linux. The role includes OS specific tasks that should allow it to work on any system.  The role installs a simple server and generates the keys for a single client user. It has been tested on Debian, Ubuntu, CentOS and Fedora.  
 
-[Github Source](https://github.com/acavella/ansible-role-wireguard)
+[Github Source](https://github.com/acavella/ansible-role-wireguard)  
 [Ansible Galaxy](https://galaxy.ansible.com/acavella/wireguard)
 
 ![Github Profile](/assets/images/role-wg.jpg)
