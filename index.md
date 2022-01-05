@@ -1,7 +1,7 @@
 ---
-title: Simple.css - A classless CSS framework
-header: Simple.css {}
-description: A classless CSS framework that makes semantic HTML look good.
+title: Home | Tony Cavella
+header: Tony Cavella
+description: automation, infrastructure, security
 permalink: /
 layout: default
 ---
