@@ -31,14 +31,14 @@
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #253031;
-    --accent-bg: #315659;
+    --bg: #012622;
+    --accent-bg: #003B36;
     --text: #DCDCDC;
     --text-light: #ABABAB;
     --border: #666;
-    --accent: #FFB300;
-    --accent-light: #FFECB3;
-    --code: #F06292;
+    --accent: #E98A15;
+    --accent-light: #F8DAB4;
+    --code: #59114D;
     --preformatted: #CCC;
     --disabled: #111;
   }
