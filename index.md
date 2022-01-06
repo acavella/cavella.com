@@ -13,7 +13,7 @@ document that journey.</p>
 <h3>Blog Posts</h3>
 
 {% for post in site.posts %}
-  <p><a href="{{ post.url }}">{{ post.title }}</a><br>
+  <p><h4><a href="{{ post.url }}">{{ post.title }}</a></h4><br>
   {{ post.description }}<br>
   {{ post.date | date_to_string }}</p>
 {% endfor %}
