@@ -492,17 +492,6 @@ pre code {
   }
 }
 
-nav a:hover,
-nav a.current {
-  color: var(--accent) !important;
-  border-color: var(--accent);
-  background: var(--bg);
-}
-
-nav a.current:hover {
-  text-decoration: none;
-}
-
 .post-description {
   font-size: 1rem;
   font-style: italic;
@@ -645,4 +634,50 @@ nav a.current:hover {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+}
+
+.head-banner {
+  margin: 0 10vw;
+  background: var(--dark);
+  position: relative;
+  display: flex;
+  height: 4rem;
+  overflow: hidden;
+}
+
+.site-logo {
+  text-align: center;
+  padding-top: .75rem;
+  position: relative;
+  height: 2.5rem;
+}
+
+.site-logo a {
+  text-decoration: none;
+}
+
+a:hover>.site-logo {
+  opacity: .8;
+}
+
+/****** Format the nav bar ******/
+nav {
+  font-size: 1.1rem;
+  padding-top: 1.25rem;
+  position: absolute;
+  right: 0;
+}
+
+nav a,
+nav a:visited,
+nav a:focus {
+  padding: .5rem .75rem;
+  color: var(--light);
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a.current {
+  color: var(--dark) !important;
+  background: var(--light);
 }
