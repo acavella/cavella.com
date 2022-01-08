@@ -471,7 +471,7 @@ pre code {
 
 /* Overwrite simple.css colours with Mastodon colours */
 :root {
-  --bg: #282d37;
+  --bg: #29313e;
   --accent-bg: #1F232B;
   --text: #d9e1e8;
   --text-light: #9baec8;
@@ -483,7 +483,7 @@ pre code {
   --preformatted: #9baec8;
   --marked: #79b9e7;
   --disabled: #282d37;
-  --dark: #282d37;
+  --dark: #29313e;
   --light: #dbe5ee;
 }
 
