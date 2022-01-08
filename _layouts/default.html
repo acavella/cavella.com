@@ -11,10 +11,12 @@
   <body>
 
     <header>
-      <h1>{{ site.title }}</h1>
-      <p>{{ site.description }}</p>
-
-      {% include navigation.html %}
+      <div class="head-banner">
+        <a href="/"><img class="site-logo" src="/assets/images/tc-logo.png" alt="TC Logo" /></a>
+        <div class="nav">
+          {% include navigation.html %}
+        </div>
+      </div>      
     </header>
 
     <main>

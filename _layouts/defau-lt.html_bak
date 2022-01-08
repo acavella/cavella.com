@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/favicon.png" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}" />
+    <link rel="stylesheet" href="/assets/css/custom.css">
+  </head>
+  <body>
+
+    <header>
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+
+      {% include navigation.html %}
+    </header>
+
+    <main>
+
+      {{ content }}
+
+    </main>
+
+    <footer>
+      <p>This <code>&lt;/&gt;</code> was created by <a href="https://cavella.com">Tony Cavella</a> with ♥ using <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://simplecss.org">Simple.css</a>.</p>
+    </footer>
+
+  </body>
+</html>
