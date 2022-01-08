@@ -178,3 +178,48 @@ nav a.current:hover {
   stroke: currentColor;
   fill: currentColor;
 }
+
+.head-banner {
+  margin: 0 10vw;
+  background: var(--dark);
+  position: relative;
+  display: flex;
+  height: 4rem;
+  overflow: hidden;
+}
+
+.site-logo {
+  text-align: center;
+  padding-top: .75rem;
+  position: relative;
+  height: 2.5rem;
+}
+
+.site-logo a {
+  text-decoration: none;
+}
+
+a:hover>.site-logo {
+  opacity: .8;
+}
+
+nav {
+  font-size: 1.1rem;
+  padding-top: 1.25rem;
+  position: absolute;
+  right: 0;
+}
+
+nav a,
+nav a:visited,
+nav a:focus {
+  padding: .5rem .75rem;
+  color: var(--light);
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a.current {
+  color: var(--dark) !important;
+  background: var(--light);
+}
