@@ -5,8 +5,8 @@ description: automation, infrastructure, security
 permalink: /
 layout: default
 ---
-<p><b>Hey, my name is Tony! I'm a Linux nerd, mobile infrastructure engineer, and general tech enthusiast!</b><br>
-This is my personal blog, somewhere I can write about random topics that I find interesting. That being 
+<p><b>Hey, my name is Tony! I'm a Linux nerd, mobile infrastructure engineer, and general tech enthusiast!</b></p><br><br>
+<p>This is my personal blog, somewhere I can write about random topics that I find interesting. That being 
 said, there is no gaurentee that I will update this blog with any regular routine, mostly when I learn something 
 new that I think might be beneficial to share. </p>
 
