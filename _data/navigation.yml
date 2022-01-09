@@ -1,14 +1,11 @@
 - name: Home
   link: /
 
-- name: Getting Started
-  link: /getting-started
+- name: Projects
+  link: /projects
 
-- name: Demo
-  link: /demo
-
-- name: Showcase
-  link: /showcase
+- name: About
+  link: /about
 
 - name: Github
   link: https://github.com/acavella
