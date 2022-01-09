@@ -1,8 +1,8 @@
 ---
-title: Projects
-header: Projects
-description: A list of current and past projects.
-permalink: /projects
+title: About
+header: About
+description: Who am I?
+permalink: /about
 layout: default
 ---
 
