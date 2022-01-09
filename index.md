@@ -5,10 +5,10 @@ description: automation, infrastructure, security
 permalink: /
 layout: default
 ---
-<p>Hey, my name is Tony! Welcome to my personal blog/site. I will attempt to update this regularly, however, 
-I make no guarantee. I work in the mobile security and infrastructure; mostly test, evaluation and integration. 
-I'm also building a large homelab using primarily large clusters of Raspberry Pis, much of my writing will 
-document that journey.</p>
+<p><b>Hey, my name is Tony! I'm a Linux nerd, mobile infrastructure engineer, and general tech enthusiast!</b></br>
+This is my personal blog, somewhere I can write about random topics that I find interesting. That being 
+said, there is no gaurentee that I will update this blog with any regular routine, mostly when I learn something 
+new that I think might be beneficial to share. </p>
 
 <h3>Blog Posts</h3>
 
