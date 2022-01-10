@@ -6,7 +6,7 @@ permalink: /about
 layout: default
 ---
 
-<img class="center" width="150" alt="Tony Cavella Profile" src="/assets/images/tc-profile.png" />
+<img class="profile" alt="Tony Cavella Profile" src="/assets/images/tc-profile.png" />
 
 ### Who am I?
 
