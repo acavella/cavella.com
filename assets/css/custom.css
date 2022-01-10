@@ -695,3 +695,7 @@ smedium,
   font-size: 1.25rem;
   line-height: 1.3;
 }
+
+.center {
+  text-align: center;
+}
