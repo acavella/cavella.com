@@ -167,30 +167,6 @@
   fill: currentColor;
 }
 
-.head-banner {
-  margin: 0 10vw;
-  background: var(--dark);
-  position: relative;
-  display: flex;
-  height: 4rem;
-  overflow: hidden;
-}
-
-.site-logo {
-  text-align: center;
-  padding-top: .75rem;
-  position: relative;
-  height: 2.5rem;
-}
-
-.site-logo a {
-  text-decoration: none;
-}
-
-a:hover>.site-logo {
-  opacity: .8;
-}
-
 /****** Format the nav bar ******/
 nav {
   font-size: 1.1rem;
@@ -213,6 +189,23 @@ nav a.current {
   background: var(--light);
 }
 
+/****** Header elements ******/
+.site-logo {
+  text-align: center;
+  padding-top: .75rem;
+  position: relative;
+  height: 2.5rem;
+}
+
+.site-logo a {
+  text-decoration: none;
+}
+
+a:hover>.site-logo {
+  opacity: .8;
+}
+
+/****** Additional text decorations ******/
 medium,
 .medium {
   font-size: 1.6rem;
