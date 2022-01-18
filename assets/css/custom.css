@@ -176,15 +176,13 @@ nav {
 }
 
 nav a,
-nav a:visited,
-nav a:focus {
+nav a:visited {
   padding: .5rem .75rem;
   color: var(--light);
   text-decoration: none;
 }
 
-nav a:hover,
-nav a.current {
+nav a:hover {
   color: var(--dark) !important;
   background: var(--light);
 }
