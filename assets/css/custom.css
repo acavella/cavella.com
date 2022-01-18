@@ -97,7 +97,7 @@ a:hover>.site-logo {
 }
 
 .container:hover .overlay {
-  opacity: .1;
+  opacity: .9;
 }
 
 .overlay {
