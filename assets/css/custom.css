@@ -178,7 +178,6 @@ nav {
 nav a,
 nav a:visited,
 nav a:focus {
-  border-radius: 5px;
   padding: .5rem .75rem;
   color: var(--light);
   text-decoration: none;
