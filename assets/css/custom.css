@@ -112,3 +112,15 @@ a:hover>.site-logo {
 .center {
   text-align: center;
 }
+
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  text-align: center;
+  margin-bottom: 1rem;
+}
