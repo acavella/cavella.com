@@ -45,8 +45,8 @@ nav a:visited {
 
 nav a:hover {
   border: none;
-  color: var(--dark) !important;
-  background: var(--light);
+  color: var(--light);
+  text-decoration: underline;
 }
 
 /****** Header elements ******/
