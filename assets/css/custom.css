@@ -37,12 +37,14 @@ nav {
 
 nav a,
 nav a:visited {
+  border: none;
   padding: .5rem .75rem;
   color: var(--light);
   text-decoration: none;
 }
 
 nav a:hover {
+  border: none;
   color: var(--dark) !important;
   background: var(--light);
 }
