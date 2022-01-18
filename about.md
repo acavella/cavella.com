@@ -7,7 +7,7 @@ layout: default
 ---
 
 <div class="container">
-    <img alt="Tony Cavella Profile" src="/assets/images/tc-profile.png" />
+    <img alt="Tony Cavella Profile" src="/assets/images/tc-profile-square.jpg" />
     <div class="overlay">
     </div>
 </div>
