@@ -85,16 +85,9 @@ a:hover>.site-logo {
   line-height: 1.3;
 }
 
-.profile {
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 128;
-}
-
 .container {
   position: relative;
+  height: 128px;
   width: 128px;
 }
 
