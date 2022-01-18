@@ -188,6 +188,15 @@ nav a:hover {
 }
 
 /****** Header elements ******/
+.head-banner {
+  margin: 0 10vw;
+  background: var(--dark);
+  position: relative;
+  display: flex;
+  height: 4rem;
+  overflow: hidden;
+}
+
 .site-logo {
   text-align: center;
   padding-top: .75rem;
