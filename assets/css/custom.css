@@ -91,14 +91,6 @@ a:hover>.site-logo {
   width: 128;
 }
 
-.profile:hover {
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 128;
-}
-
 .container {
   position: relative;
   width: 128px;
