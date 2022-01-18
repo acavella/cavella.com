@@ -38,7 +38,7 @@ nav {
 nav a,
 nav a:visited {
   border: none;
-  padding: .5rem .75rem;
+  padding: 0;
   color: var(--light);
   text-decoration: none;
 }
