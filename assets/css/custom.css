@@ -1,4 +1,4 @@
-/* Overwrite simple.css colours with Mastodon colours */
+/* Overwrite simple.css colours with custom colors */
 :root {
   --bg: #29313e;
   --accent-bg: #1F232B;
@@ -25,6 +25,17 @@
 
 header {
   background: var(--dark);
+}
+
+nav a:hover,
+nav a.current {
+  color: var(--accent) !important;
+  border-color: var(--accent);
+  background: var(--bg);
+}
+
+nav a.current:hover {
+  text-decoration: none;
 }
 
 /****** Format the nav bar ******/
