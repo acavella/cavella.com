@@ -74,6 +74,31 @@ a:hover>.site-logo {
   opacity: .8;
 }
 
+@media only screen and (max-width: 750px) {
+
+  .head-banner,
+  .page-banner h1 {
+    margin: 0 1rem;
+    display: block;
+    height: auto;
+  }
+
+  .site-logo {
+    padding-top: 1rem;
+    display: block;
+    margin: 0 auto;
+  }
+
+  nav {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-bottom: 1rem;
+    line-height: 2.5;
+  }
+}
+
+
 /****** Additional text decorations ******/
 .medium {
   font-size: 1.6rem;
