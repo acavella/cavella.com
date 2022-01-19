@@ -12,9 +12,7 @@ The purpose of this role is to install Wireguard on Linux. The role includes OS 
 [Github Source](https://github.com/acavella/ansible-role-wireguard)  
 [Ansible Galaxy](https://galaxy.ansible.com/acavella/wireguard)
 
-![Github Profile](/assets/images/role-wg.jpg)
-<p align = "center">
-Fig.1 - Wireguard Role on Ansible Galaxy
-</p>
-
-
+<figure>
+  <img alt="Github Profile" src="/assets/images/role-wg.jpg" />
+  <figcaption>Fig.1 - Wireguard Role on Ansible Galaxy</figcaption>
+</figure>

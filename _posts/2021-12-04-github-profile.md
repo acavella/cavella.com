@@ -7,10 +7,10 @@ date: 2021-12-04
 
 So, it seems I am a bit late to the party, but here nonetheless. A little over a year ago Github introduced profile customization through a custome README. To create your own, all you need to do is create a repo named after your username and then modify the `README.md`. Anything you place in this special repo will be displayed as your custom profile, you can see mine below.  Trust me, it isn't hard to cobble together a pretty slick profile. 
 
-![Github Profile](/assets/images/github-profile.jpg)
-<p align = "center">
-Fig.1 - https://www.github.com/acavella/
-</p>
+<figure>
+  <img alt="Github Profile" src="/assets/images/github-profile.jpg" />
+  <figcaption>Fig.1 - https://www.github.com/acavella/</figcaption>
+</figure>
 
 ### The Header
 I build my header image using [canva](https://www.canva.com). It is free to use and if you are like me and have no real skills when it comes to graphic design, it takes away the guess work. Choose one of the social media banner templates to get started, overlay your name or some catchy text and save it. Place the image in your repo in a folder named `assets` or similar.
