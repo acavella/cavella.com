@@ -2,18 +2,18 @@
 :root {
   --bg: #222629;
   --accent-bg: #222629;
-  --text: #d9e1e8;
-  --text-light: #9baec8;
+  --text: #EAEAEB;
+  --text-light: #B5B7B8;
   --dark-red: #951818;
   --border: #AAABB8;
   --accent: #61892f;
-  --accent-light: #2e9cca;
+  --accent-light: #90C451;
   --code: #eb6d33;
   --preformatted: #9baec8;
   --marked: #aeb0b3;
   --disabled: #282d37;
   --dark: #6b6e70;
-  --light: #dbe5ee;
+  --light: #EAEAEB;
 }
 
 /* Override Simple.css Dark theme */
