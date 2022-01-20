@@ -15,11 +15,6 @@ layout: default
 ### Who am I?
 
 <p class="medium">
-<div class="container">
-    <img align="right" alt="Tony Cavella Profile" src="/assets/images/tc-profile-square.jpg" />
-    <div class="overlay">
-    </div>
-</div>
 Hey, my name is Tony Cavella and this is my personal blog. It serves no particular niche, but gives me a place to express myself and write about various topics. I cannot guarentee any regular schedule of updates, but will try to post semi-regularly.</p>
 
 <p class="smedium">My day job keeps me busy primarily as a Linux System Engineer where I support multiple projects in the mobility sector. Prior to this I served honorably in the United States Army where I visited all kinds of exotic foreign lands like Aghanistan.</p>
