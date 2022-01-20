@@ -1,14 +1,14 @@
 /* Overwrite simple.css colours with custom colors */
 :root {
   --bg: #222629;
-  --accent-bg: #474B4F;
+  --accent-bg: #474b4f;
   --text: #d9e1e8;
   --text-light: #9baec8;
   --dark-red: #951818;
   --border: #AAABB8;
-  --accent: #2E9CCA;
+  --accent: #61892f;
   --accent-light: #79b9e7;
-  --code: #29648A;
+  --code: #88c232;
   --preformatted: #9baec8;
   --marked: #79b9e7;
   --disabled: #282d37;
@@ -24,7 +24,7 @@
 }
 
 header {
-  background: var(--bg);
+  background: var(--dark);
 }
 
 /****** Format the nav bar ******/
