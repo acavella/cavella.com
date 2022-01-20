@@ -39,13 +39,13 @@ nav a,
 nav a:visited {
   border: none;
   padding: 0;
-  color: var(--accent-light);
+  color: var(--text-light);
   text-decoration: none;
 }
 
 nav a:hover {
   border: none;
-  color: var(--accent-light);
+  color: var(--text-light);
   text-decoration: underline;
 }
 
