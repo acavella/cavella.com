@@ -39,13 +39,13 @@ nav a,
 nav a:visited {
   border: none;
   padding: 0;
-  color: var(--light);
+  color: var(--accent-light);
   text-decoration: none;
 }
 
 nav a:hover {
   border: none;
-  color: var(--light);
+  color: var(--accent-light);
   text-decoration: underline;
 }
 
@@ -131,7 +131,7 @@ a:hover>.site-logo {
   opacity: 0;
   transition: .5s ease;
   border-radius: 5px;
-  background-color: #4ea2df;
+  background-color: var(--accent-light);
 }
 
 .center {
