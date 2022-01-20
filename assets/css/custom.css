@@ -1,6 +1,6 @@
 /* Overwrite simple.css colours with custom colors */
 :root {
-  --bg: #474B4F;
+  --bg: #222629;
   --accent-bg: #222629;
   --text: #d9e1e8;
   --text-light: #9baec8;
@@ -12,7 +12,7 @@
   --preformatted: #9baec8;
   --marked: #79b9e7;
   --disabled: #282d37;
-  --dark: #222629;
+  --dark: #474b4f;
   --light: #dbe5ee;
 }
 
