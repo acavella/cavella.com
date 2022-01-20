@@ -1,7 +1,7 @@
 /* Overwrite simple.css colours with custom colors */
 :root {
   --bg: #222629;
-  --accent-bg: #474b4f;
+  --accent-bg: #222629;
   --text: #d9e1e8;
   --text-light: #9baec8;
   --dark-red: #951818;
