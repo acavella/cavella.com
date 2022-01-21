@@ -195,10 +195,7 @@ footer {
 }
 
 .tldr::before {
-  content: " TL;DR ";
-  font-size: 1.2rem;
-  width: 4rem;
-  margin-top: .3rem;
+  content: url(/assets/images/mountains.png);
 }
 
 /* Notice box */
