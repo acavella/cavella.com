@@ -1,18 +1,18 @@
 /* Overwrite simple.css colours with custom colors */
 :root {
-  --bg: #e6dbc9;
-  --accent-bg: #2e3830;
-  --text: #2e3830;
-  --text-light: #e6dbc9;
+  --bg: #12232E;
+  --accent-bg: #007CC7;
+  --text: #EEFBFB;
+  --text-light: #B5B7B8;
   --dark-red: #951818;
   --border: #AAABB8;
-  --accent: #c53211;
-  --accent-light: #e6dbc9;
+  --accent: #4da8da;
+  --accent-light: #6db0d4;
   --code: #eb6d33;
   --preformatted: #9baec8;
   --marked: #aeb0b3;
   --disabled: #282d37;
-  --dark: #2e3830;
+  --dark: #203647;
   --light: #EEFBFB;
 }
 
