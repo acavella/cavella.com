@@ -2,6 +2,8 @@
 
 /* Overwrite simple.css colours with custom colors */
 :root {
+  --sans-font: 'Hind', sans-serif;
+  --serif-font: 'Roboto Slab', serif;
   --bg: #e6dbc9;
   --accent-bg: #2e3830;
   --text: #2e3830;
