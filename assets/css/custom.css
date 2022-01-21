@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Roboto+Slab:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;600;700&family=Roboto+Slab:wght@300;400;500;700&display=swap');
 
 /* Overwrite simple.css colours with custom colors */
 :root {
@@ -166,6 +166,7 @@ footer {
 
 .post-title {
   font-family: 'Hind', sans-serif;
+  font-weight: 700;
 }
 
 /* TL;DR Block */
