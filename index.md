@@ -13,7 +13,7 @@ new that I think might be beneficial to share. </p>
 <h3>Blog Posts</h3>
 
 {% for post in site.posts %}
-  <p><b><a href="{{ post.url }}">{{ post.title }}</a></b><br>
-  📅 {{ post.date | date_to_string }}<br>
+  <p><b><a href="{{ post.url }}" class="post-title">{{ post.title }}</a></b><br>
+  📅{{ post.date | date_to_string }}<br>
   {{ post.description }}</p>
 {% endfor %}

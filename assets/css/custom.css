@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 /* Overwrite simple.css colours with custom colors */
 :root {
   --bg: #e6dbc9;
@@ -14,6 +16,7 @@
   --disabled: #282d37;
   --dark: #2e3830;
   --light: #EEFBFB;
+  --title-font: "Futura Bold";
 }
 
 /* Override Simple.css Dark theme */
@@ -157,4 +160,8 @@ footer {
   font-size: 0.7rem;
   text-align: center;
   border-top: 1px solid var(--border);
+}
+
+.post-title {
+  font-family: 'Montserrat', sans-serif;
 }
