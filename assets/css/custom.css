@@ -225,6 +225,14 @@ footer {
   text-align: center;
   border-top: 1px solid var(--border);
 }
+footer p {
+  margin-top: 4rem;
+  padding: 2rem 1rem 1.5rem 1rem;
+  color: var(--text);
+  font-size: 0.7rem;
+  text-align: center;
+  border-top: 1px solid var(--border);
+}
 
 .post-title {
   font-family: 'Hind', sans-serif;
