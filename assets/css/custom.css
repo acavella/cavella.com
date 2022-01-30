@@ -217,11 +217,11 @@ figcaption {
   margin-bottom: 1rem;
 }
 
-footer {
+body > footer {
   margin-top: 4rem;
   padding: 2rem 1rem 1.5rem 1rem;
   color: var(--text);
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   text-align: center;
   border-top: 1px solid var(--border);
 }
