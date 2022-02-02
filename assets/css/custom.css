@@ -288,7 +288,7 @@ body > footer {
   content: url(/assets/images/warning.svg);
 }
 
-blockquote p {
+blockquote {
   margin: 2rem 0 2rem 2rem;
   padding: 0.4rem 0.8rem;
   border-left: 0.35rem solid var(--accent);
