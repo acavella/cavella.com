@@ -287,3 +287,11 @@ body > footer {
 .notice-red::before {
   content: url(/assets/images/warning.svg);
 }
+
+blockquote {
+  margin: 2rem 0 2rem 2rem;
+  padding: 0.4rem 0.8rem;
+  border-left: 0.35rem solid var(--accent);
+  color: var(--text);
+  font-style: italic;
+}
