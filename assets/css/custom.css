@@ -295,3 +295,29 @@ blockquote {
   color: var(--text);
   font-style: italic;
 }
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+}
+
+@media only screen and (max-width: 750px) {
+  .footer-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer-links, .footer-recents {
+    margin-bottom: 2rem;
+  }
+}
+
+.footer h2 {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.6rem;
+}
+
+.recent-posts {
+  list-style-type: none;
+  padding: 0;
+}
