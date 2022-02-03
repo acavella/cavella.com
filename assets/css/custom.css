@@ -218,12 +218,13 @@ figcaption {
 }
 
 body > footer {
-  background: var(--dark);
-  color: var(--text-light);
-  margin: 3rem auto 0;
-  padding: 10rem 0 1rem 0;
+  margin-top: 1rem;
+  padding: 2rem 1rem 1.5rem 1rem;
+  color: var(--text);
+  font-size: 0.9rem;
   text-align: center;
-  font-size: .9rem;
+  border-top: 1px solid var(--border);
+  background: var(--dark)
 }
 
 .post-title {
