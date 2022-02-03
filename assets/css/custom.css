@@ -217,15 +217,17 @@ figcaption {
   margin-bottom: 1rem;
 }
 
-body > footer {
-  margin-top: 4rem;
-  padding: 2rem 1rem 1.5rem 1rem;
-  color: var(--text-light);
-  font-size: 0.9rem;
-  text-align: center;
-  border-top: 1px solid var(--border);
+body > footer { 
   background: var(--dark);
-  height: 2rem;
+}
+
+.footer-banner {
+  margin: 0 10vw;
+  background: var(--dark);
+  position: relative;
+  display: flex;
+  height: 4rem;
+  overflow: hidden;
 }
 
 .post-title {
