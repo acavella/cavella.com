@@ -218,16 +218,12 @@ figcaption {
 }
 
 body > footer {
-
-  color: var(--text-light);
-  font-size: 0.9rem;
-  text-align: center;
-  margin: 0 10vw;
-  position: relative;
-  display: flex;
-  height: 4rem;
-  overflow: hidden;
   background: var(--dark);
+  color: var(--text-light);
+  margin: 3rem auto 0;
+  padding: 10rem 0 1rem 0;
+  text-align: center;
+  font-size: .9rem;
 }
 
 .post-title {
