@@ -1,21 +1,19 @@
 ---
-title: Privacy Policy
-header: Privacy Policy
+title: Privacy & Terms
+header: Privacy & Terms
 description: Privacy Policy
 permalink: /privacy
 layout: default
 ---
 
-Personally, I have taken a number of steps to try and maintain my own privacy where possible. So I think I would be remiss if I didn’t try and do the same for those who decide they want to come and read the content that I put out on this site.
+# Privacy & Terms
 
-Plus, it’s actually the law within the EU.
-
-With all of the above in mind, I want to do what I can to maintain the privacy of visitors to this site wherever possible. So what do I do to help ensure your privacy is maintained?
+<p class="tldr">I have taken steps to maintain my own privacy on the internet. I have made every attempt possible to protect the privacy of the visitors to this website.</p>
 
 ## 1. Analytics
-The TL;DR is that there are no Analytics on this site.
+There are no Analytics on this site.
 
-This site is hosted with Netlify, you can read their privacy policy here
+This site is hosted with Netlify, you can read their [privacy policy](https://www.netlify.com/privacy/).
 
 ### 1.1 No Cookies
 No tracking cookies will be dropped on to your machine from this website, which means there is no unique ID that I can use to identify and track you.
