@@ -6,9 +6,9 @@ permalink: /privacy
 layout: default
 ---
 
-# Privacy & Terms
-
 <p class="tldr">I have taken steps to maintain my own privacy on the internet. I have made every attempt possible to protect the privacy of the visitors to this website.</p>
+
+# Privacy & Terms
 
 ## 1. Analytics
 There are no Analytics on this site.
