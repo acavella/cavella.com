@@ -46,5 +46,5 @@ You may not apply legal terms or technological measures that legally restrict ot
 An acceptable attribution that complies with the license would be something similar to the following:
 
 ```
-<p>Credit to <a href="https://kevq.uk">Kev Quirk</a> for the original work.</p>
+<p>Credit to <a href="https://cavella.com">Tony Cavella</a> for the original work.</p>
 ```
