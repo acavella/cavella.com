@@ -16,13 +16,10 @@ There are no Analytics on this site.
 This site is hosted with Netlify, you can read their [privacy policy](https://www.netlify.com/privacy/).
 
 ### 1.1 No Cookies
-No tracking cookies will be dropped on to your machine from this website, which means there is no unique ID that I can use to identify and track you.
+This website does not use tracking cookies. This means there is no unique ID that can be used to track and identify you.
 
-You can also use an online tool like Cookie Metrix to see what cookies are stored on your machine when you visit my site.
+### 1.2 Logging
 
-Spoiler - there are no cookies! 🙂
-
-Cookies on this website
 
 ## 2. Newsletter
 I maintain a very basic newsletter where I send a monthly roundup of the posts I’ve published that month. If you’re interested, you can find out more here
