@@ -1,8 +1,8 @@
 ---
-title: Privacy & Terms
-header: Privacy & Terms
-description: Privacy Policy
-permalink: /privacy
+title: Disclaimer
+header: Disclaimer
+description: Disclaimer
+permalink: /disclaimer
 layout: default
 ---
 
