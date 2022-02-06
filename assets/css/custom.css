@@ -630,7 +630,8 @@ a:hover>.site-logo {
 }
 
 .container {
-  float: left;
+  float: right;
+  margin: 3px;
   position: relative;
   height: 128px;
   width: 128px;
