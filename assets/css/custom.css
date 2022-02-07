@@ -632,10 +632,10 @@ a:hover>.site-logo {
 
 .container {
   float: right;
-  margin: 3px;
+  margin: 5px;
   position: relative;
-  height: 128px;
-  width: 128px;
+  height: 150px;
+  width: 150px;
 }
 
 .container:hover .overlay {
