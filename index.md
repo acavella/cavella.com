@@ -10,7 +10,7 @@ layout: default
   <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
     <div class="col p-8 d-flex flex-column position-static">
       <a href="{{ post.url }}" class="text-dark text-decoration-none"><h5 class="mb-0">{{ post.title }}</h5></a>
-      <p class="ml-2 m-2">{{ post.excerpt }}</p>
+      <p class="ml-2 m-2">{{ page.excerpt | strip_html | strip_newlines | truncate: 156 }}</p>
       <a href="{{ post.url }}" class="card-link text-secondary mb-auto">READ MORE</a>
     </div>
     <div class="col-auto d-none d-lg-block">
