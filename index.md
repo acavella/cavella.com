@@ -1,16 +1,30 @@
 ---
-title: Home | Tony Cavella
+title: Home
 header: Tony Cavella
 description: automation, infrastructure, security
 permalink: /
 layout: default
 ---
-<p class="tldr">Hey, my name is Tony! I'm a Linux nerd, mobile infrastructure engineer, and general tech enthusiast! This is my personal blog, somewhere to share my personal thoughts and projects. There is no gaurentee that I will update this blog with any regularity, but will try my best to post content I find interesting.</p>
-
-<h3>Blog Posts</h3>
-
 {% for post in site.posts %}
-  <p><a href="{{ post.url }}" class="post-title">{{ post.title }}</a><br>
-  📅{{ post.date | date_to_string }}<br>
-  {{ post.description }}</p>
+<div class="col-md-12">
+  <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+    <div class="col p-8 d-flex flex-column position-static">
+      <a href="{{ post.url }}" class="text-dark text-decoration-none"><h5 class="mb-0">{{ post.title }}</h5></a>
+      <p class="ml-2 m-2">{{ post.excerpt }}</p>
+      <a href="{{ post.url }}" class="card-link text-secondary mb-auto">READ MORE</a>
+    </div>
+    <div class="col-auto d-none d-lg-block">
+    {% if post.thumbnail %}
+      <img src="{{ post.thumbnail }}" class="img-fluid" style="width: 200px; height: 200px; object-fit: cover;" alt="Responsive image">
+    {% else %}
+      <img src="/assets/images/placeholder-square.png" class="img-fluid" style="width: 200px; height: 200px; object-fit: cover;" alt="Responsive image">
+    {% endif %}
+    </div>
+    <div class="card-footer bg-light d-flex bd-highlight">
+      <div class="me-auto bd-highlight"><svg class="bi" width="16" height="16"><use xlink:href="#calendar"/></svg><small class="text-muted"> {{ post.date | date_to_string }}</small></div>
+      <div class="bd-highlight"><small class="text-muted">{{ post.category }} <svg class="bi" width="16" height="16"><use xlink:href="#tag"/></svg></small></div>
+    </div>
+  </div>
+</div>
+<br>
 {% endfor %}

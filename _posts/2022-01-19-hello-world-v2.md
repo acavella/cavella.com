@@ -3,10 +3,11 @@ layout: post
 title: "Hello World v2"
 description: "I'm happy to announce the site has been rebuilt using Simple.css ver. 2.0"
 date: 2022-01-19
+category: Site Development
 ---
 
 I'm happy to announce the site has been rebuilt using Simple.css version 2.0, which was just released by Kev Quirk two days ago. If you are looking to create a dead simple website, go check out his work at [Simple.css](https://simplecss.org). 
-
+<!--more-->
 ### What's new?
 While the original version of this blog was also based on the original version of Simple.css, I had copied it locally and made some pretty messy edits/hacks to achieve what I wanted. I don't claim to be a web developer, so my knowledge of CSS is minimal at best. Although this approach worked, it was definitely not the optimal way to go about things and some portions of the site didn't work exactly as intended.
 

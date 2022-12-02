@@ -3,9 +3,13 @@ layout: post
 title: What is this?
 description: I will try to document my various projects here. I hope to keep things very simple.
 date: 2021-12-03
+category: Site Development
+thumbnail: "/assets/images/gradiant_placeholder.svg"
 ---
 
 This is my personal blog. I am not one for long diatribes, however, I will try to document my various projects here. I hope to keep things very simple.  
+
+<!--more-->
 
 ### Built on Poole
 

@@ -1,3 +1,4 @@
-# cavella.com
-Repostiory for cavella.com personal blog.  
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d1a88f93-82e2-4e7e-86ef-91eb61fed9e6/deploy-status)](https://app.netlify.com/sites/hungry-saha-a1a1cc/deploys)
+# dev.cavella.com
+Development environment for cavella.com theme.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/983917cc-d8d8-4a28-b6e3-cf6603620222/deploy-status)](https://app.netlify.com/sites/wonderful-hermann-e824c3/deploys)

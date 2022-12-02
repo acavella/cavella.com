@@ -7,9 +7,11 @@ author: Tony Cavella
 title: Tony Cavella
 description: "automation, infrastructure, security"
 lang: en
-locale: en_GB
+locale: en_US
 url: "https://cavella.com"
 baseurl: ""
+permalink: /:slugified_categories/:year/:month/:day/:title:output_ext
+excerpt_separator: <!--more-->
 
 # RSS feeds
 feed:
