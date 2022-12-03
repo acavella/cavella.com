@@ -8,7 +8,7 @@ layout: default
 {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
-    {% unless forloop.first %}</ul>{% endunless %}
+    {% unless forloop.first %}{% endunless %}
     <h1>{{ currentdate }}</h1>
     <ul>
     {% assign date = currentdate %}
