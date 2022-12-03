@@ -8,8 +8,7 @@
       <ul class="nav nav-pills">
         {% for item in site.data.navigation %}
           {% if page.url == {{ item.link }} %}
-          <li class="nav-item active"><a href="{{ item.link }}" class="nav-link text-dark">{{ item.name }}</a></li>
-    
+          <li class="nav-item active"><a href="{{ item.link }}" class="nav-link text-dark">{{ item.name }} <span class="sr-only">(current)</span></a></li>
           {% else %}
           <li class="nav-item"><a href="{{ item.link }}" class="nav-link text-dark">{{ item.name }}</a></li>
           {% endif %}
