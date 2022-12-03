@@ -10,11 +10,12 @@ layout: default
   {% if currentdate != date %}
     {% unless forloop.first %}{% endunless %}
     ## {{ currentdate }}
-    <ul>
     {% assign date = currentdate %}
   {% endif %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% if forloop.last %}</ul>{% endif %}
+  <a href="{{ post.url }}">{{ post.title }}</a>
+  {{ post.date }}
+  {{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}
+  {% if forloop.last %} --- {% endif %}
 {% endfor %}
 
 {% for post in site.posts limit:5 %}
