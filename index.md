@@ -9,9 +9,9 @@ layout: default
 <div class="col-md-12">
   <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
     <div class="col p-8 d-flex flex-column position-static">
-      <a href="{{ post.url }}" class="text-dark text-decoration-none"><h5 class="mb-0">{{ post.title }}</h5></a>
-      <p class="ml-2 m-2">{{ post.excerpt | strip_html | strip_newlines | truncate: 800 }}</p>
-      <a href="{{ post.url }}" class="card-link text-secondary mb-auto">READ MORE</a>
+      <a href="{{ post.url }}" class="text-dark text-decoration-none ml-2 m-2"><h5 class="mb-0">{{ post.title }}</h5></a>
+      <p class="ml-2 m-2">{{ post.excerpt | strip_html | strip_newlines | truncate: 650 }}</p>
+      <a href="{{ post.url }}" class="card-link text-secondary mb-auto ml-2 m-2">READ MORE</a>
     </div>
     <div class="col-auto d-none d-lg-block">
     {% if post.thumbnail %}
