@@ -9,7 +9,7 @@ layout: default
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
     {% unless forloop.first %}{% endunless %}
-    <h1>{{ currentdate }}</h1>
+    ## {{ currentdate }}
     <ul>
     {% assign date = currentdate %}
   {% endif %}
