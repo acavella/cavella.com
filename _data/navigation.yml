@@ -4,8 +4,8 @@
 - name: Projects
   link: /projects
 
-- name: About
-  link: /about
+- name: Archive
+  link: /archive
 
 - name: Github
   link: https://github.com/acavella
