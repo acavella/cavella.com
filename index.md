@@ -11,8 +11,8 @@ layout: default
         <img src="/assets/images/tc-profile2.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
     </div>
     <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <h1 class="display-5 fw-bold lh-1 mb-3">Hey there!</h1>
+        <p class="lead">My name is Tony and I love technology. During the day I work as a senior systems engineer supporting mobility infrastructure. I always love learning new things and constantly bounce from project to project, throwing myself head long into the fire; what better way to learn. I am currently building what I think is the ultimate Raspberry Pi 4 based homelab.</p>
     </div>
   </div>
 </div>
