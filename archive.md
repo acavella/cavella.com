@@ -1,8 +1,8 @@
 ---
-title: Home
-header: Tony Cavella
+title: Archive
+header: Archive
 description: automation, infrastructure, security
-permalink: /
+permalink: /archive
 layout: default
 ---
 {% for post in site.posts %}
