@@ -1,6 +1,7 @@
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-paginate
 
 # SEO Stuff
 author: Tony Cavella
