@@ -26,7 +26,7 @@ layout: default
   {% if currentdate != date %}
     {% unless forloop.first %}
     <hr/>
-    <div class="d-flex justify-content-end fs-6"><a href="{{ page.url }}/#archive-menu" class="text-uppercase fs-6 text-dark text-decoration-none">Back to Top</a></div>
+    <div class="d-flex justify-content-end fs-6"><a href="{{ page.url }}/#archive-menu" class="text-uppercase fs-6 text-dark text-decoration-none">Back to Top ↑</a></div>
     {% endunless %}
     <p class="mb-auto px-1" id="y{{currentdate}}"><h4>{{ currentdate }}</h4></p>
     {% assign date = currentdate %}
