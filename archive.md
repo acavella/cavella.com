@@ -10,10 +10,13 @@ layout: default
 
 <div class="container text-center">
   <div class="row row-cols-3">
-    <div class="col">Column</div>
-    <div class="col">Column</div>
-    <div class="col">Column</div>
-    <div class="col">Column</div>
+  {% for post in site.posts %}
+  {% assign currentdate = post.date | date: "%Y" %}
+  {% if currentdate != date %}
+    <div class="col" id="y{{currentdate}}">{{ currentdate }}</div>
+  {% assign date = currentdate %} 
+  {% endif %}
+  {% endfor %}
   </div>
 </div>
 
