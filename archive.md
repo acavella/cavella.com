@@ -8,7 +8,7 @@ layout: default
 
 ### Post Archive
 
-<div class="container text-center">
+<div class="container text-center gap-2">
   <div class="row row-cols-3">
   {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
