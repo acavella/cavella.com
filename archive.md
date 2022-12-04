@@ -8,6 +8,15 @@ layout: default
 
 ### Post Archive
 
+<div class="container text-center">
+  <div class="row row-cols-3">
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+  </div>
+</div>
+
 <div class="col-md-12">
 {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
