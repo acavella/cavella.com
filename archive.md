@@ -13,7 +13,7 @@ layout: default
   {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
-    <div class="col border-bottom" id="y{{currentdate}}">{{ currentdate }}</div>
+    <div class="col border-bottom pd-2" id="y{{currentdate}}">{{ currentdate }}</div>
   {% assign date = currentdate %} 
   {% endif %}
   {% endfor %}
