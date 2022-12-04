@@ -8,7 +8,7 @@ layout: default
 {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
-    {% unless forloop.first %}{% endunless %}
+    {% unless forloop.first %}<div class="col-md-12">{% endunless %}
     ## {{ currentdate }}
     {% assign date = currentdate %}
   {% endif %}
@@ -17,7 +17,7 @@ layout: default
   <p class="mb-auto px-1">{{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</p>
   {{ post.date }}
   {{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}
-  {% if forloop.last %} --- {% endif %}
+  {% if forloop.last %}</div>{% endif %}
 {% endfor %}
 
 {% for post in site.posts limit:5 %}
