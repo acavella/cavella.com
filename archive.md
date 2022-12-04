@@ -20,7 +20,7 @@ layout: default
   </div>
 </div>
 
-<div class="col-md-12">
+<div class="col-md-12 px-3">
 {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
@@ -30,7 +30,7 @@ layout: default
     <p class="mb-auto px-1" id="y{{currentdate}}"><h4>{{ currentdate }}</h4></p>
     {% assign date = currentdate %}
   {% endif %}
-  <a href="{{ post.url }}" class="text-dark text-decoration-none mb-auto ps-1 pt-1"><h5>{{ post.title }}</h5></a>
+  <p class="mb-auto px-1"><a href="{{ post.url }}" class="text-dark text-decoration-none mb-auto ps-1 pt-1"><h5>{{ post.title }}</h5></a></p>
   <p class="mb-auto px-1">{{ post.date | date_to_string }}</p>
   <p class="mb-auto px-1">{{ post.excerpt | strip_html | strip_newlines | truncate: 320 }}</p>
   {% if forloop.last %}
