@@ -8,7 +8,7 @@ layout: default
 
 ### Post Archive
 
-<div class="d-grid gap-3 .col-sm-120">
+<div class="d-grid gap-3 col-sm-120">
   {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
