@@ -8,7 +8,8 @@ layout: default
 
 ### Post Archive
 
-<div class="d-grid gap-3">
+<div class="container text-center">
+  <div class="row justify-content-md-center row-cols-3">
   {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
@@ -16,6 +17,7 @@ layout: default
   {% assign date = currentdate %} 
   {% endif %}
   {% endfor %}
+  </div>
 </div>
 
 <div class="col-md-12">
