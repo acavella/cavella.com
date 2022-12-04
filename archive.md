@@ -16,7 +16,7 @@ layout: default
     <hr/>
     <div class="d-flex justify-content-end fs-6"><a href="{{ page.url }}/#logo" class="text-uppercase fs-6 text-dark text-decoration-none">Back to Top</a></div>
     {% endunless %}
-    <p class="mb-auto px-1"><h3>{{ currentdate }}</h3></p>
+    <p class="mb-auto px-1"><h4>{{ currentdate }}</h4></p>
     {% assign date = currentdate %}
   {% endif %}
   <a href="{{ post.url }}" class="text-dark text-decoration-none mb-auto ps-1 pt-1"><h5>{{ post.title }}</h5></a>
