@@ -8,16 +8,14 @@ layout: default
 
 ### Post Archive
 
-<div class="container text-center gap-2">
-  <div class="row row-cols-3">
+<div class="d-grid gap-3">
   {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
-    <div class="col border-bottom p-2" id="y{{currentdate}}">{{ currentdate }}</div>
+    <div class="p-2 bg-light border-bottom" id="y{{currentdate}}">{{ currentdate }}</div>
   {% assign date = currentdate %} 
   {% endif %}
   {% endfor %}
-  </div>
 </div>
 
 <div class="col-md-12">
