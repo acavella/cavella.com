@@ -8,12 +8,12 @@ layout: default
 
 ### Post Archive
 
-<div class="container text-center">
+<div class="container text-center"  id="archive-menu">
   <div class="row justify-content-sm-center row-cols-3">
   {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
-    <div class="bg-light border" id="y{{currentdate}}">{{ currentdate }}</div>
+    <div class="p-2 bg-light border"><a href="{{ page.url }}/#y{{currentdate}}" class="text-uppercase fs-6 text-dark text-decoration-none">{{ currentdate }}</a></div>
   {% assign date = currentdate %} 
   {% endif %}
   {% endfor %}
@@ -26,9 +26,9 @@ layout: default
   {% if currentdate != date %}
     {% unless forloop.first %}
     <hr/>
-    <div class="d-flex justify-content-end fs-6"><a href="{{ page.url }}/#logo" class="text-uppercase fs-6 text-dark text-decoration-none">Back to Top</a></div>
+    <div class="d-flex justify-content-end fs-6"><a href="{{ page.url }}/#archive-menu" class="text-uppercase fs-6 text-dark text-decoration-none">Back to Top</a></div>
     {% endunless %}
-    <p class="mb-auto px-1"><h4>{{ currentdate }}</h4></p>
+    <p class="mb-auto px-1" id="y{{currentdate}}"><h4>{{ currentdate }}</h4></p>
     {% assign date = currentdate %}
   {% endif %}
   <a href="{{ post.url }}" class="text-dark text-decoration-none mb-auto ps-1 pt-1"><h5>{{ post.title }}</h5></a>
