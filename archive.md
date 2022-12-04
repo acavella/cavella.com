@@ -9,7 +9,7 @@ layout: default
 ### Post Archive
 
 <div class="container text-center">
-  <div class="row justify-content-md-center row-cols-3">
+  <div class="row justify-content-sm-center row-cols-3">
   {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
