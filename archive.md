@@ -11,7 +11,7 @@ layout: default
   {% if currentdate != date %}
     {% unless forloop.first %}
     <hr/>
-    <div class="d-flex justify-content-end"><a href="{{ page.url }}/#logo" class="text-uppercase fs-6 text-dark text-decoration-none">Back to Top</a></div>
+    <div class="d-flex justify-content-end fs-6"><a href="{{ page.url }}/#logo" class="text-uppercase fs-6 text-dark text-decoration-none">Back to Top</a></div>
     {% endunless %}
     <p class="mb-auto px-1"><h3>{{ currentdate }}</h3></p>
     {% assign date = currentdate %}
