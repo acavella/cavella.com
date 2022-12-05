@@ -33,7 +33,7 @@ layout: default
   {% endif %}
   <p class="mb-auto px-1 h5"><a href="{{ post.url }}" class="text-dark text-decoration-none mb-auto">{{ post.title }}</a></p>
   <p class="mb-auto px-1">{{ post.date | date_to_string }}</p>
-  <p class="mb-auto px-1 pb-2">{{ post.excerpt | strip_html | strip_newlines | truncate: 320 }}</p>
+  <p class="mb-auto px-1 pb-3">{{ post.excerpt | strip_html | strip_newlines | truncate: 320 }}</p>
   {% if forloop.last %}
     <div class="d-flex justify-content-end fs-6"><a href="{{ page.url }}/#archive-menu" class="text-uppercase fs-6 text-dark text-decoration-none">Back to Top ↑</a></div>
   {% endif %}
