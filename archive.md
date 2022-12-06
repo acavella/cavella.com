@@ -25,7 +25,7 @@ layout: default
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
     {% unless forloop.first %}
-    <hr>
+    <hr class="mb-0">
     <div class="d-flex justify-content-end"><small><a href="{{ page.url }}/#archive-menu" class="text-uppercase text-dark text-decoration-none">Back to Top ↑</a></small></div>
     {% endunless %}
     <p class="mb-auto px-1" id="y{{currentdate}}"><h4>{{ currentdate }}</h4></p>
