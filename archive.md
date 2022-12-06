@@ -13,7 +13,7 @@ layout: default
   {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
-    <div class="p-2 bg-light border"><a href="{{ page.url }}/#y{{currentdate}}" class="text-uppercase fs-6 text-dark text-decoration-none">{{ currentdate }}</a></div>
+    <div class="p-2 bg-light border"><a href="{{ page.url }}/#y{{currentdate}}" class="text-uppercase fs-6 text-dark">{{ currentdate }}</a></div>
   {% assign date = currentdate %} 
   {% endif %}
   {% endfor %}
