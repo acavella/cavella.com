@@ -8,7 +8,7 @@ layout: default
 
 ### Post Archive
 
-<div class="container text-center"  id="archive-menu">
+<div class="container text-center col-md-6"  id="archive-menu">
   <div class="row justify-content-sm-center row-cols-3">
   {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
@@ -20,7 +20,7 @@ layout: default
   </div>
 </div>
 
-<div class="col-md-6 px-3">
+<div class="col-md-11 px-3">
 {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
@@ -35,7 +35,7 @@ layout: default
   <p class="mb-auto px-1">{{ post.date | date_to_string }}</p>
   <p class="mb-auto px-1 pb-3">{{ post.excerpt | strip_html | strip_newlines | truncate: 320 }}</p>
   {% if forloop.last %}
-    <div class="d-flex justify-content-end fs-6"><a href="{{ page.url }}/#archive-menu" class="text-uppercase fs-6 text-dark text-decoration-none">Back to Top ↑</a></div>
+    <div class="d-flex justify-content-end"><small><a href="{{ page.url }}/#archive-menu" class="text-uppercase text-dark text-decoration-none">Back to Top ↑</a></small></div>
   {% endif %}
 {% endfor %}
 </div>
