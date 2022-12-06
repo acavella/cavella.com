@@ -20,7 +20,7 @@ layout: default
   </div>
 </div>
 
-<div class="col-md-12 px-3">
+<div class="col-md-6 px-3">
 {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
