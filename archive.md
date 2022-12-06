@@ -13,7 +13,7 @@ layout: default
   {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
-    <div class="p-2 bg-light border"><a href="{{ page.url }}/#y{{currentdate}}" class="text-uppercase fs-6 text-dark">{{ currentdate }}</a></div>
+    <div class="p-2 bg-light border"><a href="{{ page.url }}/#y{{ currentdate }}" class="text-uppercase fs-6 text-dark">{{ currentdate }}</a></div>
   {% assign date = currentdate %} 
   {% endif %}
   {% endfor %}
@@ -28,7 +28,7 @@ layout: default
     <hr class="mb-0">
     <div class="d-flex justify-content-end"><small><a href="{{ page.url }}/#archive-menu" class="text-uppercase text-dark text-decoration-none">Back to Top ↑</a></small></div>
     {% endunless %}
-    <p class="mb-auto px-1" id="y{{currentdate}}"><h4>{{ currentdate }}</h4></p>
+    <p class="mb-auto px-1" id="y{{ currentdate }}"><h4>{{ currentdate }}</h4></p>
     {% assign date = currentdate %}
   {% endif %}
   <p class="mb-auto px-1 h5"><a href="{{ post.url }}" class="text-dark text-decoration-none mb-auto">{{ post.title }}</a></p>
