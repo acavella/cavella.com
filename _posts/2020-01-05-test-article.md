@@ -2,7 +2,7 @@
 layout: post
 title: "Test Article"
 description: "A recent ruling from a German Court in Munich, required a website owner to pay &#128;100 for using embedded fonts."
-date: 2023-01-05
+date: 2020-01-05
 category: News
 thumbnail: "/assets/images/font_thumb.png"
 ---
