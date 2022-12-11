@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Court Rules Against Embedded Fonts"
+title: "Test Article Number Duece"
 description: "A recent ruling from a German Court in Munich, required a website owner to pay &#128;100 for using embedded fonts."
-date: 2022-02-1
+date: 2019-01-05
 category: News
 thumbnail: "/assets/images/font_thumb.png"
 ---
