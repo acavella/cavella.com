@@ -10,6 +10,9 @@ layout: default
 
 <div class="container text-center col-md-6"  id="archive-menu">
   <div class="row justify-content-sm-left row-cols-3">
+    <h4>Archive Navigation</h4>
+  </div>
+  <div class="row justify-content-sm-left row-cols-3">
   {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
