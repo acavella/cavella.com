@@ -8,7 +8,7 @@ layout: default
 
 ### Post Archive
 
-<div class="container text-center col-md-6"  id="archive-menu">
+<div class="container text-left col-md-6"  id="archive-menu">
   <div class="row justify-content-sm-center row-cols-3">
   {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
