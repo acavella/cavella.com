@@ -5,12 +5,12 @@ description: automation, infrastructure, security
 permalink: /archive
 layout: default
 ---
-
+<div class="container col-md-2">
 <div class="container text-center col-md-6"  id="archive-menu">
   <div class="row justify-content-sm-left row-cols-1">
     <strong>Archive Navigation</strong>
   </div>
-  <div class="row justify-content-sm-left row-cols-3">
+  <div class="row justify-content-sm-left row-cols-1">
   {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
@@ -20,8 +20,10 @@ layout: default
   {% endfor %}
   </div>
 </div>
+</div>
 
-<div class="col-md-11 px-3">
+<div class="container col-md-10">
+<div class="col-md-10 px-3">
 {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
@@ -39,4 +41,5 @@ layout: default
     <div class="d-flex justify-content-end"><small><a href="{{ page.url }}/#archive-menu" class="text-uppercase text-dark text-decoration-none">Back to Top ↑</a></small></div>
   {% endif %}
 {% endfor %}
+</div>
 </div>
