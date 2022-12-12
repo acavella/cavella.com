@@ -6,8 +6,6 @@ permalink: /archive
 layout: default
 ---
 
-### Post Archive
-
 <div class="container text-center col-md-6"  id="archive-menu">
   <div class="row justify-content-sm-left row-cols-1">
     <strong>Archive Navigation</strong>
