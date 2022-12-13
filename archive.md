@@ -31,7 +31,7 @@ layout: default
       {% endfor %}
     </div>
     <div class="col-2" id="archive-menu">
-      <div class="row justify-content-sm-left row-cols-1">
+      <div class="row justify-content-sm-center row-cols-1">
         {% for post in site.posts %}
         {% assign currentdate = post.date | date: "%Y" %}
         {% if currentdate != date %}
