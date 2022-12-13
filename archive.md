@@ -32,7 +32,7 @@ layout: default
     </div>
   </div>
   <div class="col-2">
-      <div class="container text-center col-md-2"  id="archive-menu">
+      <div class="container text-center"  id="archive-menu">
       <div class="row justify-content-sm-left row-cols-1">
         {% for post in site.posts %}
         {% assign currentdate = post.date | date: "%Y" %}
