@@ -5,9 +5,9 @@ description: automation, infrastructure, security
 permalink: /archive
 layout: default
 ---
-<div class="row justify-content-center">
-  <div class="col-10">
-      <div class="col-md-10 px-3">
+<div class="container justify-content-center">
+  <div class="row">
+    <div class="col-10">
       {% for post in site.posts %}
       {% assign currentdate = post.date | date: "%Y" %}
       {% if currentdate != date %}
@@ -30,19 +30,19 @@ layout: default
       {% endif %}
       {% endfor %}
     </div>
-  </div>
-  <div class="col-2">
-      <div class="container text-center"  id="archive-menu">
+    <div class="col-2" id="archive-menu">
       <div class="row justify-content-sm-left row-cols-1">
         {% for post in site.posts %}
         {% assign currentdate = post.date | date: "%Y" %}
         {% if currentdate != date %}
-      <div class="p-2 bg-light border"><a href="{{ page.url }}/#y{{ currentdate }}" class="text-uppercase fs-6 text-dark">{{ currentdate }}</a></div>
+        <div class="p-2 bg-light border">
+          <a href="{{ page.url }}/#y{{ currentdate }}" class="text-uppercase fs-6 text-dark">{{ currentdate }}</a>
+        </div>
         {% assign date = currentdate %} 
         {% endif %}
         {% endfor %}
       </div>
-      </div>
+    </div>
   </div>
 </div>
 
