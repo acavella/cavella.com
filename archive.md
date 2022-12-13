@@ -32,7 +32,7 @@ layout: default
     </div>
     <div class="col-2" id="archive-menu">
       <div class="d-flex justify-content-center" id="archive-menu">
-          <h4>Navigation</h4>
+          <strong>Navigation</strong>
       </div>
       <div class="row justify-content-sm-center row-cols-1">
         {% for post in site.posts %}
