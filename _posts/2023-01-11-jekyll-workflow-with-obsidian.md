@@ -14,6 +14,8 @@ I'm bounced around on various blogs over the years and have learned one thing, i
 
 After a few iterations, I have a pretty sustainable workflow using Jekyll. All of my Jekyll source is hosted on a [Github](https://github.com/acavella/cavella.com) repository. From there it is built, updated and deployed using [Netlify](https://netlify.com). Netlify wraps this all in a neat little bow providing fast hosting using my own custom domains and even provides me a free TLS certificate through [Lets Encrypt](https://letsencrypt.org). 
 
-![jekyll-workflow.drawio.png](../assets/images/jekyll-workflow.drawio.png)
+![jekyll-workflow.drawio.png](../.assets/images/jekyll-workflow.drawio.png)
 
-Unfortunately, this workflow is still missing the simplicity provided by a WYSIWYG editor. I have previously used things like VSCode to edit posts and then publish those changes to Github.  This has certainly worked, but I find writing Markdown in VSCode to not be the greatest of end user experiences, lacking any great way to view formatting and preview in realtime. 
+Unfortunately, this workflow is still missing the simplicity provided by a WYSIWYG editor. I have previously used things like VSCode to edit posts and then publish those changes to Github.  This has certainly worked, but I find writing Markdown in VSCode to not be the greatest of end user experiences, lacking any great way to view formatting and preview in realtime. Recently I started using [Obsidian](https://obsidian.md/) as my primary markdown editor for notetaking and "second brain".  I have also realized it serves as a excellent alternative WYSIWYG editor for my Jekyll site. 
+
+Obsidian's power here lies in its ability to be enhanced using community plugins. Using a few plugins Obsidian fits directly into my workflow.  A post template 
