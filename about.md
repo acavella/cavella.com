@@ -29,8 +29,15 @@ layout: default
     </div>
   </div>
   <div class="row">
-    <div class="col-4">col-8</div>
-    <div class="col-4">col-4</div>
+    <div class="col-4">
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-dark fw-bold">Peripherals</li>
+        <li class="list-group-item">Corsair K70 RGB Mk 2 Keyboard</li>
+        <li class="list-group-item">Corsair Nightsword RGB Mouse</li>
+        <li class="list-group-item">2x Yubikey 5 NFC</li>      
+    </ul>
+    </div>
+    <div class="col-4"></div>
   </div>
 </div>
 
