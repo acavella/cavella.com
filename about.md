@@ -27,8 +27,6 @@ layout: default
         <li class="list-group-item">Crucial MX500 2TB 3D NAND SATA 2.5-inch SSD</li>      
     </ul>
     </div>
-  </div>
-  <div class="row">
     <div class="col-4">
     <ul class="list-group">
         <li class="list-group-item list-group-item-dark fw-bold">Peripherals</li>
@@ -37,7 +35,6 @@ layout: default
         <li class="list-group-item">2x Yubikey 5 NFC</li>      
     </ul>
     </div>
-    <div class="col-4"></div>
   </div>
 </div>
 
