@@ -9,20 +9,20 @@ layout: default
 
 #### Desktop
 
-<div class="container text-center">
+<div class="container text-left">
   <div class="row">
     <div class="col-4">
-        <ul class="list-group">
-        <li class="list-group-item">CPU: AMD Ryzen 7 5800X</li>
-        <li class="list-group-item">GPU: Sapphire Radeon RX 6700 XT</li>
-        <li class="list-group-item">RAM: Corsair Vengeance Pro 64GB (4x16GB)</li>
+        **CPU / GPU / Mem**
+        - AMD Ryzen 7 5800X
+        - Sapphire Radeon RX 6700 XT
+        - Corsair Vengeance Pro 64GB (4x16GB)
         </ul>
     </div>
     <div class="col-4">
-        <ul class="list-group">
-        <li class="list-group-item">NVMe: Crucial P5 Plus Gaming 1TB NVMe</li>
-        <li class="list-group-item">NVMe: Crucial P5 Plus Gaming 512GB NVMe</li>
-        <li class="list-group-item">SSD: rucial MX500 2TB 3D NAND SATA 2.5-inch SSD</li>
+        **Storage** 
+        - Crucial P5 Plus Gaming 1TB NVMe
+        - Crucial P5 Plus Gaming 512GB NVMe
+        - Crucial MX500 2TB 3D NAND SATA 2.5-inch SSD
         </ul>
     </div>
   </div>
