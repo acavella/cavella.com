@@ -1,8 +1,8 @@
 - name: Home
   link: /
 
-- name: Projects
-  link: /projects
+- name: About
+  link: /about
 
 - name: Archive
   link: /archive
