@@ -13,14 +13,18 @@ layout: default
   <div class="row">
     <div class="col-4">
         <ul class="list-group">
-        <li class="list-group-item">An item</li>
-        <li class="list-group-item">A second item</li>
-        <li class="list-group-item">A third item</li>
-        <li class="list-group-item">A fourth item</li>
-        <li class="list-group-item">And a fifth one</li>
+        <li class="list-group-item">CPU: AMD Ryzen 7 5800X</li>
+        <li class="list-group-item">GPU: Sapphire Radeon RX 6700 XT</li>
+        <li class="list-group-item">RAM: Corsair Vengeance Pro 64GB (4x16GB)</li>
         </ul>
     </div>
-    <div class="col-4">col</div>
+    <div class="col-4">
+        <ul class="list-group">
+        <li class="list-group-item">NVMe: Crucial P5 Plus Gaming 1TB NVMe</li>
+        <li class="list-group-item">NVMe: Crucial P5 Plus Gaming 512GB NVMe</li>
+        <li class="list-group-item">SSD: rucial MX500 2TB 3D NAND SATA 2.5-inch SSD</li>
+        </ul>
+    </div>
   </div>
   <div class="row">
     <div class="col-4">col-8</div>
@@ -28,7 +32,7 @@ layout: default
   </div>
 </div>
 
-- AMD Ryzen 7 5800X
+- 
 - Corsair Vengeance RGB Pro 64GB (4x16GB) DDR4 3200
 - Sapphire Radeon RX 6700 XT
 - Crucial P5 Plus Gaming 1TB NVMe SSD
