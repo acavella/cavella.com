@@ -13,7 +13,7 @@ layout: default
   <div class="row">
     <div class="col-4">
     <ul class="list-group">
-        <li class="list-group-item list-group-item-dark">CPU / GPU / Mem</li>
+        <li class="list-group-item list-group-item-dark fw-bold">CPU / GPU / Mem</li>
         <li class="list-group-item">AMD Ryzen 7 5800X</li>
         <li class="list-group-item">ASapphire Radeon RX 6700 XT</li>
         <li class="list-group-item">Corsair Vengeance Pro 64GB (4x16GB)</li>      
@@ -21,7 +21,7 @@ layout: default
     </div>
     <div class="col-4">
     <ul class="list-group">
-        <li class="list-group-item list-group-item-dark">Storage</li>
+        <li class="list-group-item list-group-item-dark fw-bold">Storage</li>
         <li class="list-group-item">Crucial P5 Plus Gaming 1TB NVMe</li>
         <li class="list-group-item">Crucial P5 Plus Gaming 512GB NVMe</li>
         <li class="list-group-item">Crucial MX500 2TB 3D NAND SATA 2.5-inch SSD</li>      
