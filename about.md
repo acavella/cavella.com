@@ -7,7 +7,7 @@ layout: default
 ---
 # About
 
-#### Desktop
+### Desktop
 
 <div class="container text-left">
   <div class="row">
@@ -37,13 +37,6 @@ layout: default
     </div>
   </div>
 </div>
-
-- 
-- Corsair Vengeance RGB Pro 64GB (4x16GB) DDR4 3200
-- Sapphire Radeon RX 6700 XT
-- Crucial P5 Plus Gaming 1TB NVMe SSD
-- Crucial P5 Plus Gaming 512GB NVMe SSD
-- Crucial MX500 2TB 3D NAND SATA 2.5-inch SSD
 
 ### Homelab
 I'm currently working on building what I consider the ultimate Raspberry Pi based homelab. Trying to stay current and relevant in the IT field is incredibly important and a homelab is key to this in my mind. The homelab allows you to practice and maintain your current skills, while giving you opportunties to try new things that you wouldn't always get a chance to do at work.
