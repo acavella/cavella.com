@@ -8,6 +8,13 @@ layout: default
 # About
 
 #### Desktop
+<ul class="list-group">
+  <li class="list-group-item">An item</li>
+  <li class="list-group-item">A second item</li>
+  <li class="list-group-item">A third item</li>
+  <li class="list-group-item">A fourth item</li>
+  <li class="list-group-item">And a fifth one</li>
+</ul>
 - AMD Ryzen 7 5800X
 - Corsair Vengeance RGB Pro 64GB (4x16GB) DDR4 3200
 - Sapphire Radeon RX 6700 XT
