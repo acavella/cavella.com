@@ -6,9 +6,8 @@ permalink: /about
 layout: default
 ---
 # About
-## Setup
 
-### Desktop
+#### Desktop
 - AMD Ryzen 7 5800X
 - Corsair Vengeance RGB Pro 64GB (4x16GB) DDR4 3200
 - Sapphire Radeon RX 6700 XT
