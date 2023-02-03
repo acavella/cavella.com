@@ -1,14 +1,13 @@
 ---
 title: About
 header: About
-description: Who am I?
+description: a little bit about
 permalink: /about
 layout: default
 ---
-# About
+<p class="h1">About</p>
 
-### Setup
-
+<p class="h4">Setup</p>
 <div class="container text-left">
   <div class="row">
     <div class="col-6">
@@ -53,7 +52,17 @@ layout: default
   </div>
 </div>
 
-### Homelab
+<p class="h4">Homelab</p>
+<div class="container text-left">
+  <div class="row">
+    <div class="col-4">
+    
+    </div>
+    <div class="col-8">
+    
+    </div>
+  </div>
+</div>
 I'm currently working on building what I consider the ultimate Raspberry Pi based homelab. Trying to stay current and relevant in the IT field is incredibly important and a homelab is key to this in my mind. The homelab allows you to practice and maintain your current skills, while giving you opportunties to try new things that you wouldn't always get a chance to do at work.
 
 ### This Site
