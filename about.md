@@ -19,11 +19,11 @@ layout: default
         <li class="list-group-item"><strong>Mem:</strong> Corsair Vengeance Pro 64GB (4x16GB)</li> 
         <li class="list-group-item">
           <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">Storage</h5>
+            <strong>Storage:</strong>
           </div>
-          <p class="mb-1">Crucial P5 Plus Gaming 1TB NVMe</p>
-          <p class="mb-1">Crucial P5 Plus Gaming 512GB NVMe</p>
-          <p class="mb-1">Crucial MX500 2TB 3D NAND SATA 2.5-inch SSD</p>
+          <p class="mb-1 ms-1">- Crucial P5 Plus Gaming 1TB NVMe</p>
+          <p class="mb-1 ms-1">- Crucial P5 Plus Gaming 512GB NVMe</p>
+          <p class="mb-1 ms-1">- Crucial MX500 2TB 3D NAND SATA 2.5-inch SSD</p>
         </li>    
     </ul>
     </div>
