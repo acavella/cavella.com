@@ -36,8 +36,8 @@ layout: default
           <div class="d-flex w-100 justify-content-between">
             <strong>Software:</strong>
           </div>
-          <p class="mb-1 ms-2"><strong>OS: </strong>Windows 11 Pro</p>
-          <p class="mb-1 ms-2"><strong>OS2: </strong>Fedora Workstation 37 (Budgie)</p>
+          <p class="mb-1 ms-2"><strong>Primary OS: </strong>Windows 11 Pro</p>
+          <p class="mb-1 ms-2"><strong>Secondary VM: </strong>Fedora Workstation 37 (Budgie)</p>
         </li>     
     </ul>
     </div>
@@ -58,8 +58,8 @@ layout: default
           <div class="d-flex w-100 justify-content-between">
             <strong>Software:</strong>
           </div>
-          <p class="mb-1 ms-2"><strong>OS: </strong>Fedora Workstation 37 (Budgie)</p>
-          <p class="mb-1 ms-2"><strong>OS2: </strong>Windows 11 Pro</p>
+          <p class="mb-1 ms-2"><strong>Primary OS: </strong>Fedora Workstation 37 (Budgie)</p>
+          <p class="mb-1 ms-2"><strong>Secondary VM: </strong>Windows 11 Pro</p>
         </li>  
     </ul>
     </div>
