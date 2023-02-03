@@ -11,7 +11,7 @@ layout: default
 
 <div class="container text-left">
   <div class="row">
-    <div class="col-4">
+    <div class="col-6">
     <ul class="list-group">
         <li class="list-group-item list-group-item-dark fw-bold">Desktop (Custom)</li>
         <li class="list-group-item"><strong>CPU:</strong> AMD Ryzen 7 5800X</li>
@@ -27,7 +27,7 @@ layout: default
         </li>    
     </ul>
     </div>
-    <div class="col-4">
+    <div class="col-6">
     <ul class="list-group">
         <li class="list-group-item list-group-item-dark fw-bold">Storage</li>
         <li class="list-group-item">Crucial P5 Plus Gaming 1TB NVMe</li>
