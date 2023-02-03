@@ -7,7 +7,7 @@ layout: default
 ---
 <h1 class="display-6">About</h1>
 
-<h3 class="display-6">System Setup</h3>
+<p class="h5">System Setup</p>
 <div class="container text-left">
   <div class="row">
     <div class="col-6">

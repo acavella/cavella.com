@@ -5,6 +5,8 @@ description: automation, infrastructure, security
 permalink: /archive
 layout: default
 ---
+<h1 class="display-6">About</h1>
+
 <div class="container justify-content-center">
   <div class="row">
     <div class="col-10">
