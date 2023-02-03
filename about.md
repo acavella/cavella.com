@@ -5,7 +5,7 @@ description: a little bit about
 permalink: /about
 layout: default
 ---
-<p class="h1">About</p>
+<h1 class="display-6">About</h1>
 
 <p class="h5">Setup</p>
 <div class="container text-left">
