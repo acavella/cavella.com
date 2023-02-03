@@ -14,7 +14,7 @@ layout: default
     <div class="col-6">
     <ul class="list-group">
         <li class="list-group-item list-group-item-dark fw-bold">Desktop (Custom)</li>
-        <li class="list-group-item"><strong>CPU:</strong> AMD Ryzen 7 5800X</li>
+        <li class="list-group-item"><strong>CPU:</strong> AMD Ryzen™ 7 5800X</li>
         <li class="list-group-item"><strong>GPU:</strong> Sapphire Radeon RX 6700 XT</li>
         <li class="list-group-item"><strong>Mem:</strong> Corsair Vengeance Pro 64GB (4x16GB)</li> 
         <li class="list-group-item">
@@ -37,10 +37,17 @@ layout: default
     </div>
     <div class="col-6">
     <ul class="list-group">
-        <li class="list-group-item list-group-item-dark fw-bold">Storage</li>
-        <li class="list-group-item">Crucial P5 Plus Gaming 1TB NVMe</li>
-        <li class="list-group-item">Crucial P5 Plus Gaming 512GB NVMe</li>
-        <li class="list-group-item">Crucial MX500 2TB 3D NAND SATA 2.5-inch SSD</li>      
+        <li class="list-group-item list-group-item-dark fw-bold">Laptop (Dell XPS 13 7390)</li>
+        <li class="list-group-item"><strong>CPU:</strong> Intel® Core™ i7-10710U</li>
+        <li class="list-group-item"><strong>GPU:</strong> Integrated</li>
+        <li class="list-group-item"><strong>Mem:</strong> 16GB</li> 
+        <li class="list-group-item"><strong>Storage:</strong> Crucial P3 Plus 2TB PCIe Gen4 NVMe</li> 
+        <li class="list-group-item">
+          <div class="d-flex w-100 justify-content-between">
+            <strong>Peripherals:</strong>
+          </div>
+          <p class="mb-1 ms-2">Yubikey 5C NFC</p>
+        </li>     
     </ul>
     </div>
   </div>
