@@ -31,6 +31,13 @@ layout: default
           <p class="mb-1 ms-2">Corsair K70 RGB Mk.2 Keyboard</p>
           <p class="mb-1 ms-2">Corsair Nightsword RGB Mouse</p>
           <p class="mb-1 ms-2">2x Yubikey 5 NFC </p>
+        </li> 
+        <li class="list-group-item">
+          <div class="d-flex w-100 justify-content-between">
+            <strong>Software:</strong>
+          </div>
+          <p class="mb-1 ms-2"><strong>OS: </strong>Windows 11 Pro</p>
+          <p class="mb-1 ms-2"><strong>OS2: </strong>Fedora Workstation 37 (Budgie)</p>
         </li>     
     </ul>
     </div>
@@ -46,7 +53,14 @@ layout: default
             <strong>Peripherals:</strong>
           </div>
           <p class="mb-1 ms-2">Yubikey 5C NFC</p>
-        </li>     
+        </li>    
+        <li class="list-group-item">
+          <div class="d-flex w-100 justify-content-between">
+            <strong>Software:</strong>
+          </div>
+          <p class="mb-1 ms-2"><strong>OS: </strong>Fedora Workstation 37 (Budgie)</p>
+          <p class="mb-1 ms-2"><strong>OS2: </strong>Windows 11 Pro</p>
+        </li>  
     </ul>
     </div>
   </div>
