@@ -13,10 +13,19 @@ layout: default
   <div class="row">
     <div class="col-4">
     <ul class="list-group">
-        <li class="list-group-item list-group-item-dark fw-bold">Desktop</li>
+        <li class="list-group-item list-group-item-dark fw-bold">Desktop (Custom)</li>
         <li class="list-group-item"><strong>CPU:</strong> AMD Ryzen 7 5800X</li>
-        <li class="list-group-item">Sapphire Radeon RX 6700 XT</li>
-        <li class="list-group-item">Corsair Vengeance Pro 64GB (4x16GB)</li>      
+        <li class="list-group-item"><strong>GPU:</strong> Sapphire Radeon RX 6700 XT</li>
+        <li class="list-group-item"><strong>Mem:</strong> Corsair Vengeance Pro 64GB (4x16GB)</li> 
+        <li class="list-group-item">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">List group item heading</h5>
+            <small>3 days ago</small>
+          </div>
+          <p class="mb-1">Some placeholder content in a paragraph.</p>
+        </li>
+        <li class="list-group-item">Crucial P5 Plus Gaming 512GB NVMe</li>
+        <li class="list-group-item">Crucial MX500 2TB 3D NAND SATA 2.5-inch SSD</li>     
     </ul>
     </div>
     <div class="col-4">
