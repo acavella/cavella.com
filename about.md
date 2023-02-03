@@ -56,10 +56,10 @@ layout: default
 <div class="container text-left">
   <div class="row">
     <div class="col-4"><p class="lead">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac orci phasellus egestas tellus. Vivamus arcu felis bibendum ut tristique et egestas. Placerat in egestas erat imperdiet sed euismod nisi. Fermentum dui faucibus in ornare quam. Vitae proin sagittis nisl rhoncus mattis rhoncus urna. Vitae tortor condimentum lacinia quis vel eros donec ac. Tortor at auctor urna nunc id. Nibh ipsum consequat nisl vel. Interdum velit euismod in pellentesque massa placerat duis ultricies. Sed nisi lacus sed viverra tellus in hac. Quam viverra orci sagittis eu volutpat odio facilisis.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac orci phasellus egestas tellus. Vivamus arcu felis bibendum ut tristique et egestas. Placerat in egestas erat imperdiet sed euismod nisi. Fermentum dui faucibus in ornare quam.
     </p>
     <p>
-    Massa enim nec dui nunc mattis. Velit ut tortor pretium viverra suspendisse potenti nullam. Euismod quis viverra nibh cras pulvinar mattis nunc. Quis risus sed vulputate odio ut enim blandit volutpat. Lobortis scelerisque fermentum dui faucibus in ornare. Massa ultricies mi quis hendrerit. Suspendisse ultrices gravida dictum fusce. Fringilla est ullamcorper eget nulla. Augue mauris augue neque gravida in. Ullamcorper dignissim cras tincidunt lobortis feugiat. Egestas integer eget aliquet nibh. Velit ut tortor pretium viverra suspendisse potenti. Fringilla ut morbi tincidunt augue interdum velit. Est ultricies integer quis auctor. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Quis viverra nibh cras pulvinar mattis nunc. At consectetur lorem donec massa sapien faucibus et molestie. Faucibus a pellentesque sit amet porttitor eget dolor morbi non.
+    Massa enim nec dui nunc mattis. Velit ut tortor pretium viverra suspendisse potenti nullam. Euismod quis viverra nibh cras pulvinar mattis nunc. Quis risus sed vulputate odio ut enim blandit volutpat. Lobortis scelerisque fermentum dui faucibus in ornare. Massa ultricies mi quis hendrerit. Suspendisse ultrices gravida dictum fusce. Fringilla est ullamcorper eget nulla. Augue mauris augue neque gravida in.
     </p>
     </div>
     <div class="col-8">
