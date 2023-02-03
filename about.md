@@ -7,7 +7,7 @@ layout: default
 ---
 <p class="h1">About</p>
 
-<p class="h4">Setup</p>
+<p class="h5">Setup</p>
 <div class="container text-left">
   <div class="row">
     <div class="col-6">
@@ -52,7 +52,7 @@ layout: default
   </div>
 </div>
 
-<p class="h4">Homelab</p>
+<p class="h5">Homelab</p>
 <div class="container text-left">
   <div class="row">
     <div class="col-4">
