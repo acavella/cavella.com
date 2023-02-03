@@ -19,13 +19,12 @@ layout: default
         <li class="list-group-item"><strong>Mem:</strong> Corsair Vengeance Pro 64GB (4x16GB)</li> 
         <li class="list-group-item">
           <div class="d-flex w-100 justify-content-between">
-            <h5 class="mb-1">List group item heading</h5>
-            <small>3 days ago</small>
+            <h5 class="mb-1">Storage</h5>
           </div>
-          <p class="mb-1">Some placeholder content in a paragraph.</p>
-        </li>
-        <li class="list-group-item">Crucial P5 Plus Gaming 512GB NVMe</li>
-        <li class="list-group-item">Crucial MX500 2TB 3D NAND SATA 2.5-inch SSD</li>     
+          <p class="mb-1">Crucial P5 Plus Gaming 1TB NVMe</p>
+          <p class="mb-1">Crucial P5 Plus Gaming 512GB NVMe</p>
+          <p class="mb-1">Crucial MX500 2TB 3D NAND SATA 2.5-inch SSD</p>
+        </li>    
     </ul>
     </div>
     <div class="col-4">
@@ -34,14 +33,6 @@ layout: default
         <li class="list-group-item">Crucial P5 Plus Gaming 1TB NVMe</li>
         <li class="list-group-item">Crucial P5 Plus Gaming 512GB NVMe</li>
         <li class="list-group-item">Crucial MX500 2TB 3D NAND SATA 2.5-inch SSD</li>      
-    </ul>
-    </div>
-    <div class="col-4">
-    <ul class="list-group">
-        <li class="list-group-item list-group-item-dark fw-bold">Peripherals</li>
-        <li class="list-group-item">Corsair K70 RGB Mk 2 Keyboard</li>
-        <li class="list-group-item">Corsair Nightsword RGB Mouse</li>
-        <li class="list-group-item">2x Yubikey 5 NFC</li>      
     </ul>
     </div>
   </div>
