@@ -57,4 +57,4 @@ layout: default
 I'm currently working on building what I consider the ultimate Raspberry Pi based homelab. Trying to stay current and relevant in the IT field is incredibly important and a homelab is key to this in my mind. The homelab allows you to practice and maintain your current skills, while giving you opportunties to try new things that you wouldn't always get a chance to do at work.
 
 ### This Site
-This website is built with Jekyll, a static site generator. This is hosted for free using Github Pages. The design and css is based off of the [Simple.css ver. 2](https://simplecss.org) by [Key Quirk](https://kevq.uk/about). I do not claim to be a web developer, but have done a fair amount of work to customize and tweak the design to make it my own.  
+This website is built with Jekyll, a static site generator, hosted for free using [Github](https://github.com/) and [Netlify](https://www.netlify.com/). I built this site using [Bootstrap v5.3](https://getbootstrap.com/) and with the intent of achieving a lightweight, clean design. This is a constant work in progress, source for this website can be found on my Github.
