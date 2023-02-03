@@ -5,9 +5,9 @@ description: a little bit about
 permalink: /about
 layout: default
 ---
-<h1 class="display-6 p-3">About</h1>
+<h1 class="display-6">About</h1>
 
-<p class="h5 p-3">System Setup</p>
+<p class="h5 pt-3">System Setup</p>
 <div class="container text-left">
   <div class="row">
     <div class="col-6">
@@ -52,7 +52,7 @@ layout: default
   </div>
 </div>
 
-<p class="h5 p-3">Homelab</p>
+<p class="h5 pt-3">Homelab</p>
 <div class="container text-left">
   <div class="row">
     <div class="col-4"><p class="lead">
