@@ -7,14 +7,14 @@ layout: default
 ---
 # About
 
-### Desktop
+### Setup
 
 <div class="container text-left">
   <div class="row">
     <div class="col-4">
     <ul class="list-group">
-        <li class="list-group-item list-group-item-dark fw-bold">CPU / GPU / Mem</li>
-        <li class="list-group-item">AMD Ryzen 7 5800X</li>
+        <li class="list-group-item list-group-item-dark fw-bold">Desktop</li>
+        <li class="list-group-item"><strong>CPU:</strong> AMD Ryzen 7 5800X</li>
         <li class="list-group-item">Sapphire Radeon RX 6700 XT</li>
         <li class="list-group-item">Corsair Vengeance Pro 64GB (4x16GB)</li>      
     </ul>
