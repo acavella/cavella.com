@@ -24,7 +24,15 @@ layout: default
           <p class="mb-1 ms-2">Crucial P5 Plus Gaming 1TB NVMe</p>
           <p class="mb-1 ms-2">Crucial P5 Plus Gaming 512GB NVMe</p>
           <p class="mb-1 ms-2">Crucial MX500 2TB 3D NAND SATA 2.5-inch SSD</p>
-        </li>    
+        </li> 
+        <li class="list-group-item">
+          <div class="d-flex w-100 justify-content-between">
+            <strong>Peripherals:</strong>
+          </div>
+          <p class="mb-1 ms-2">Corsair K70 RGB Mk.2 Keyboard</p>
+          <p class="mb-1 ms-2">Corsair Nightsword RGB Mouse</p>
+          <p class="mb-1 ms-2">2x Yubikey 5 NFC </p>
+        </li>     
     </ul>
     </div>
     <div class="col-6">
