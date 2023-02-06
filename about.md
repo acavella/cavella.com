@@ -77,7 +77,7 @@ layout: default
     </p>
     </div>
     <div class="col-8">
-      <img src="assets/homelab_diag_v1.png" class="img-fluid" alt="Current Homelab Diagram">
+      <img src="/assets/homelab_diag_v1.png" class="img-fluid" alt="Current Homelab Diagram">
     </div>
   </div>
 </div>
