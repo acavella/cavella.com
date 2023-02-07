@@ -70,10 +70,13 @@ layout: default
 <div class="container text-left">
   <div class="row">
     <div class="col-4"><p class="lead">
-    I'm currently working on building what I consider the ultimate Raspberry Pi based homelab. Trying to stay current and relevant in the IT field is incredibly important and a homelab is key to this in my mind. The homelab allows you to practice and maintain your current skills, while giving you opportunties to try new things that you wouldn't always get a chance to do at work.
+    I'm currently working on building what I hope one day will be the ultimate Raspberry Pi based homelab. Trying to stay current and relevant in the IT field is incredibly important and a homelab is key to this in my mind. The homelab allows you to practice and maintain your current skills, while giving you opportunties to try new things that you wouldn't always get a chance to do at work.
     </p>
     <p>
-    The lab in its current iteration consists of 8 Raspberry Pi 4's. Each of these runs Fedora Server 37 and Podman. Massa enim nec dui nunc mattis. Velit ut tortor pretium viverra suspendisse potenti nullam. Euismod quis viverra nibh cras pulvinar mattis nunc. Quis risus sed vulputate odio ut enim blandit volutpat. Lobortis scelerisque fermentum dui faucibus in ornare.
+    In its current iteration the lab consists of 8 Raspberry Pi 4's. The first four are running Fedora Server 37 and Podman, each independently build around specific key services. InternetPi hosts internet facing services; WireguardVPN, PSI FileTransfer, and . MonitorPi consists of an entire monitoring suite for the lab based on Grafana, Prometheus, Grafana Loki, Rsyslog and Uptime-Kuma. UtilityPi consists of blah blah and blah. And finally PrivacyPi is dedicated as a Wireguard VPN server.
+    </p>
+    <p>
+    The next four (4) Pis are running the latest Ubuntu Server 22.10 configured as a Docker Swarm. This system doesn't have any dedicated workload, but serves to test various workloads in a cluster. Projects are constantly being rotated in and out of the Swarm.
     </p>
     </div>
     <div class="col-8">
