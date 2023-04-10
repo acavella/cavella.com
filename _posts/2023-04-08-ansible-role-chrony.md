@@ -8,7 +8,7 @@ filename: 2023-04-08-ansible-role-chrony
 layout: post
 title: "New Ansible Role, Chrony"
 date: 2023-04-08
-category: Desktop
+category: Development
 thumbnail: "/assets/images/clock_thumb.jpg"
 ---
 
